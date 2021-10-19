@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: rgba(10, 60, 9, 0.815705);
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.texto {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.imagem {
+  width: 30%;
+  height: auto;
+  mix-blend-mode: overlay;
+}
+
+@media (max-width: 650px) {
+  .imagem {
+    width: 50%;
+  }
+}
